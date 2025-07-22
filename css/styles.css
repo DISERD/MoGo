@@ -160,6 +160,43 @@ body {
 
 }
 
+.benefits_item::before {
+    content: "";
+    display: block;
+    margin-right: 15px;
+    width: 37px;
+    height: 37px;
+    background-size: 37px;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.benefits_item.clock-icon::before {
+    background-image: url("../img/icons/alarm.svg");
+}
+
+.benefits_item.graph-icon::before {
+    background-image: url("../img/icons/graph.svg");
+}
+
+.benefits_item.display-icon::before {
+    background-image: url("../img/icons/monitor.svg");
+}
+
+.benefits_item.paper-icon::before {
+    background-image: url("../img/icons/paper.svg");
+}
+
+.benefits_item.home-icon::before {
+    background-image: url("../img/icons/home.svg");
+}
+
+.benefits_item.digital-icon::before {
+    background-image: url("../img/icons/digital.svg");
+}
+
+
 .benefits_icon {
     width: 37px;
     height: 37px;
